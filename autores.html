@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>AutoresApp - Distribuidora de libros</title>
+	<link rel="stylesheet" href="css/misEstilos.css">
+	<link rel="stylesheet" href="css/style.css">	
+</head>
+<body>
+	<div id="contenedor">
+		<header><span class="icon-home"></span><strong><a href="index.html"> LibreriaApp - Distribuidora de libros</a> </strong></header>
+		<nav >
+		<div id="menu">
+			<ul>
+				<div>
+				<li class="nivel1">
+					<a href="#" class="nivel1"><span class="icon-book"></span> Libros</a>				
+					<ul>
+						<li><a href="#">Consultas</a></li>
+						<li><a href="#">Nuevo libro</a></li>
+					</ul>				
+				</li>
+				<div>
+				<li class="nivel1">
+					<a href="#" class="nivel1"><span class="icon-user-tie"></span> Autores</a>				
+					<ul>
+						<li><a href="#">Consultas</a></li>
+						<li><a href="autores.html">Nuevo Autor</a></li>
+					</ul>					
+				</li>
+
+				<li class="nivel1">					
+					<a href="#" class="nivel1"><span class="icon-address-book"></span> Editoriales</a>
+					<ul>
+						<li><a href="#">Consultas</a></li>
+						<li><a href="#">Nueva Editorial</a></li>
+					</ul>
+				</li>
+
+				<li class="nivel1">
+					<a href="#" class="nivel1"><span class="icon-library"></span> Tiendas</a>
+					<ul>
+						<li><a href="#">Consultas</a></li>
+						<li><a href="#">Nueva >Tienda</a></li>
+					</ul>
+				</li>
+
+				<li class="nivel1">
+					<a href="#" class="nivel1"> <span class="icon-coin-dollar"></span> Ventas</a>
+					<ul>
+						<li><a href="#">Consultas</a></li>
+						<li><a href="#">Nueva Venta</a></li>
+					</ul>
+				</li>
+				
+				<li class="nivel1">
+					<a href="#" class="nivel1"> <span class="icon-newspaper"></span> Reportes</a>
+					<ul>
+						<li><a href="#">Reporte de Libros</a></li>
+						<li><a href="#">Reporte de ventas</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div >
+		</nav>
+
+		<section>
+			<fieldset>
+			<legend>Altas de autores</legend>
+
+			<table class="centrar">
+				<tr>
+					<td><label for ="Nombre">Nombre(s):</label></td>
+					<td><input type="text" name="Nombre" placeholder="Nombre(s)" size=50 required> </input></td>
+				</tr>
+				<tr>
+					<td><label for="Apellido" >Apellido(s):</label> </td>
+					<td><input type="text" name="Apellido" title="Apellido" size=50 id="Apellido" placeholder="Apellido(s)"></input></td>
+				</tr>
+				<tr>
+					<td><label for="Telefono"> Telefono:</label> </td>
+					<td><input type="text" name="Telefono" title="Telefono" placeholder="Telefono" ></input> </td>
+				</tr>
+			</table>
+			</fieldset>
+			<fieldset>
+				<table>
+					<tr>
+						<td><label for="Dirección">Dirección: </label></td>
+						<td><input type="text" name="Dirección" placeholder="calle, número y colonia"></td>
+					</tr>
+					<tr>
+						<td><label for="pais">País:</label></td>
+						<td><select name="pais" id="pais">
+								<optgroup label="paises">
+									 <option value=1>México</option>
+							     	 <option value=2>Canada</option> 
+							     	 <option value=3>Australia</option>
+							     	 <option value=4>China</option> 
+							     	 <option value=5>España</option>
+							     	 <option value=6>Alemania</option> 
+							    </optgroup> 
+							</select>
+							</td>
+					</tr>
+					<tr>
+						<td><label for="Ciudad">Ciudad:</label></td>
+						<td><select name="Ciudad" id="Ciudad">
+								<optgroup label="Ciudades">
+									 <option value=1>CDMX</option>
+							     	 <option value=2>Vancouver</option> 
+							     	 <option value=3>Sindney</option>
+							     	 <option value=4>Pekín</option> 
+							     	 <option value=5>Madrid</option>
+							     	 <option value=6>Berlín</option> 
+							    </optgroup> 
+							</select>
+							</td>
+					</tr>
+					<tr>
+						<td><label for="Estado">Estado:</label></td>
+						<td><select name="Estado" id="Estado">
+								<optgroup label="Estados">
+									 <option value=1>Yucatán</option>
+							     	 <option value=2>Aguascalientes</option> 
+							     	 <option value=3>Durango</option>
+							     	 <option value=4>Chihuahua</option> 
+							     	 <option value=5>Zacatecas</option>
+							     	 <option value=6>Jalisco</option> 
+							    </optgroup> 
+							</select>
+							</td>
+					</tr>
+					<tr>
+						<td><label for="cp">C.P.</label></td>
+						<td><input type="text" name="cp" placeholder="Código Postal"></td>
+					</tr>
+				</table>
+			</fieldset>
+			<center><button type="submit" value="Enviar">Grabar</button>
+			<button type="reset" value="reset">Limpiar</button>
+			</center>
+		</section>
+
+		<footer>				
+			<p>
+		<span class="icon-google-plus3 "> </span>
+		<span class="icon-facebook3 "> </span>
+		<span class="icon-twitter3 "> </span>				
+			 Erick Fernando Casas Fausto (17041440) - Desarrollo de Aplicaciones Web (Grupo 6Q)</p>
+		</footer>
+	</div>
+</body>
+	<script src="js/demo.js"></script>
+</html>
+
