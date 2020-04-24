@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Práctica 3</title>
+	<link rel="stylesheet" href="css/misEstilos.css">
+	<link rel="stylesheet" href="css/style.css">	
+</head>
+<body>
+	<div id="contenedor">
+		<header><span class="icon-home"></span><strong><a href="index.html"> LibreriaApp - Distribuidora de libros</a> </strong></header>
+		<nav >
+		<div id="menu">
+			<ul>
+				<div>
+				<li class="nivel1">
+					<a href="#" class="nivel1"><span class="icon-book"></span> Libros</a>				
+					<ul>
+						<li><a href="#">Consultas</a></li>
+						<li><a href="#">Nuevo libro</a></li>
+					</ul>				
+				</li>
+				<div>
+				<li class="nivel1">
+					<a href="#" class="nivel1"><span class="icon-user-tie"></span> Autores</a>				
+					<ul>
+						<li><a href="#">Consultas</a></li>
+						<li><a href="autores.html">Nuevo Autor</a></li>
+					</ul>					
+				</li>
+
+				<li class="nivel1">					
+					<a href="#" class="nivel1"><span class="icon-address-book"></span> Editoriales</a>
+					<ul>
+						<li><a href="#">Consultas</a></li>
+						<li><a href="#">Nueva Editorial</a></li>
+					</ul>
+				</li>
+
+				<li class="nivel1">
+					<a href="#" class="nivel1"><span class="icon-library"></span> Tiendas</a>
+					<ul>
+						<li><a href="#">Consultas</a></li>
+						<li><a href="#">Nueva >Tienda</a></li>
+					</ul>
+				</li>
+
+				<li class="nivel1">
+					<a href="#" class="nivel1"> <span class="icon-coin-dollar"></span> Ventas</a>
+					<ul>
+						<li><a href="#">Consultas</a></li>
+						<li><a href="#">Nueva Venta</a></li>
+					</ul>
+				</li>
+				
+				<li class="nivel1">
+					<a href="#" class="nivel1"> <span class="icon-newspaper"></span> Reportes</a>
+					<ul>
+						<li><a href="#">Reporte de Libros</a></li>
+						<li><a href="#">Reporte de ventas</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div >
+		</nav>
+
+		<section>
+			<h1>Altas de Autores</h1>
+		<fieldset>
+		
+		<table class="datos-autor">
+			<tr>
+				<td><label for="nombre">Nombre(s):</label></td>
+				<td><input type="text" name="nombre" placeholder="Nombre(s)"></input></td>
+			</tr>
+			<tr>
+				<td><label for="apellido">Apellido(s):</label></td>
+				<td><input type="text" name="apellido" placeholder="Apellido(s)"></input></td>
+			</tr>
+			<tr>
+				<td><label for="telefono">Teléfono:</label></td>
+				<td><input type="text" name="telefono" placeholder="Teléfono"></input></td>
+			</tr>
+		</table>
+		</fieldset>
+
+		<fieldset>
+		<table class="datos-domicilio">
+			<tr>
+				<td><label for="direccion">Dirección:</label></td>
+				<td><input type="text" name="direccion" placeholder="Calle, Número y Colonia"></input></td>
+			</tr>
+			<tr>
+				<td><label for="pais">País:</label></td>
+				<td><select name="pais">
+					<optgroup label="paises">
+						<option value="1">México</option>
+						<option value="2">Estados Unidos</option>
+						<option value="3">España</option>
+						<option value="4">Costa Rica</option>
+						<option value="5">Brasil</option>
+					</optgroup>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="estado">Estado:</label></td>
+				<td><select name="estados">
+					<optgroup label="Estados:">
+						<option value="1">Durango</option>
+						<option value="2">Washington</option>
+						<option value="3">Madrid</option>
+						<option value="4">San José</option>
+						<option value="5">Rio de Janeiro</option>
+					</optgroup>
+					</select>
+				</td>
+				</tr>
+				<tr>
+				<td><label for="ciudad">Ciudad:</label></td>
+				<td><select name="ciudades">
+					<optgroup label="Ciudades:">
+						<option value="1">Durango</option>
+						<option value="2">Otáez</option>
+						<option value="3">Mapimí</option>
+						<option value="4">Canatlán</option>
+						<option value="5">Santiago Papasquiaro</option>
+					</optgroup>
+					</select>
+				</td>
+				</tr>
+
+				<tr>
+				<td><label for="codigo-postal">C.P.:</label></td>
+				<td><input type="text" name="codigo-postal" placeholder="Código Postal"></input></td>
+				</tr>
+		</table>
+		</fieldset>
+
+		<button type="submit" value="guardar">Guardar</button>
+		<button type="reset" value="reset">Limpiar</button>
+		</section>
+
+		<footer>
+		
+		<p>
+			<span class="icon-google-plus3"> </span>
+			<span class="icon-facebook3"> </span>
+			<span class="icon-twitter3"> </span>
+			Derechos Reservados programación web 2015</p>
+		</footer>
+	</div>
+</body>
+	<script src="js/demo.js"></script>
+</html>
+
